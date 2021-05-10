@@ -15,10 +15,3 @@ def generate_json(): # this function will convert the merged csv file iton json 
     for idx, group in df.groupby(np.arange(len(df))): 
         group.to_json(f'customer{idx+1}.json', orient='index')
 
-def main():  # main function
-    pass
-
-
-if __name__ == "__main__":
-    main()
-    

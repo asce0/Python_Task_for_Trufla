@@ -17,11 +17,3 @@ def dict_to_json(data):
         json_file.write(json_data)
         json_file.close()
 
-def main():  # main function
-    #data = read_xml()
-    #dict_to_json(data)
-    pass
-
-
-if __name__ == "__main__":
-    main()
