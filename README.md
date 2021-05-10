@@ -29,7 +29,7 @@ Go to the Trufla Task folder
                    cd Python_Task_for_Trufla
 activate virtual env
 
-                   Trufla/Scripts/activate
+                   env/Scripts/activate
 
 
 install the requirements
@@ -38,19 +38,15 @@ install the requirements
                   
 ### Run 
 
-Go to the TCode folder
+Go to the Code folder
 
                    cd Code
                   
 Run the files
-                  python xml_parser.py
-                  python csv_parser.py
 
-Output will be inside parsing_result folder
-
-                  cd parsing_result
+                  python parser.py filetype filename
 
 
 
 ## Status
-Project is: _in progress_ 
+Project is:  _finished_ 
