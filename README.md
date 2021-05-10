@@ -38,9 +38,9 @@ install the requirements
                   
 ### Run 
 
-Go to the Code folder
+Go to the trufla_parser folder
 
-                   cd Code
+                   cd trufla_parser
                   
 Run the files
 
